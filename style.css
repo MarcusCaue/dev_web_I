@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: blue;
+
+}
+
+.data {
+    color: rgb(5, 5, 138);
+    font-weight: bold;
+}
