@@ -6,15 +6,10 @@ body {
 div#conteudo {
     padding: 3%;
     width: 400px;
-    height: 300px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 4px;
-    background-color: #396AAF;
-}
-
-header {
-    padding-left: 20px;
+    background-image: linear-gradient(to right, #2A5082, #3A6FB5, #396EB4, #2A5082)
 }
 
 #title {
@@ -28,11 +23,8 @@ header {
 }
 
 form#formulario {
-    width: 71%;
+    width: auto;
     height: 180px;
-    margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     text-align: center;
 }
 
@@ -40,7 +32,7 @@ label#login {
     margin-left: 5px;
 }
 
-.entrada {
+.leitura {
     height: 25px; 
     background-color: #1E4F8A;
     border-width: 1px;
@@ -49,12 +41,10 @@ label#login {
 }
 
 #condicaoSenha {
-    display: block;
-    margin-right: 0px;
-    margin-left: 46px;
+    width: 174px;
+    margin-left: 136px;
     margin-top: 10px;
     margin-bottom: 3px;
-    padding: 0px;
     font-size: 11px;
 }
 
