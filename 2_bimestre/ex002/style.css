@@ -1,5 +1,35 @@
+body {
+    background-color: #202124 !important;
+    color: white !important;
+    margin: 15px 8px 8px 8px !important;
+    /* Outra cor: #3C4043*/
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+#gravacao {
+    width: 100px;
+    background-color: #D04523;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    font-size: 11px;
+}
+
+.perfis {
+    width: auto !important;
+    background-color: #3C4043;
+}
+
 img {
     border-radius: 100%;
     width: 91px !important;
     height: 66px !important;
 }
+
+button {
+    color: white !important;
+}
+

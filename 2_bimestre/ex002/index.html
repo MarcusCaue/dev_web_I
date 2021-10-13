@@ -19,29 +19,46 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
-<body>
-    <div class="row">
-        <span id="button-record"> <i style="color: white;" class="fas fa-circle"></i> Gravando </span>
+<body>  
+    <!-- Parte em que fica a palavra "Gravando" -->
+    <div class="row" id="gravacao">
+        <span> <i class="fas fa-circle"></i> GRAVANDO </span>
+    </div>
+
+    <!-- Parte em que ficam as caixinhas com as fotos e nomes de cada usuário -->
+    <div class="row col-md-8" id="users">
+
+        <div class="row">
+            <div class="perfis"><img src="images/bisao.jpg" alt="foto de um bisao"></div>
+            <div class="perfis"><img src="images/leao.jpg" alt="foto de um leao"></div>
+            <div class="perfis"><img src="images/eagle.jpg" alt="foto de uma aguia"></div>
+        </div>
+        
+        <div class="row">
+            <div class="perfis"><img src="images/lobo.jpg" alt="foto de um lobo"></div>
+            <div class="perfis"><img src="images/urso.jpg" alt="foto de um urso"></div>
+            <div class="perfis"><img src="images/pinguim.jpg" alt="foto de um pinguim"></div>
+        </div>
+        
+        <div class="row">
+            <div class="perfis"><img src="images/tigre.jpg" alt="foto de um tigre"></div>
+            <div class="perfis"><img src="images/cavalo.jpg" alt="foto de um cavalo"></div>
+            <div class="perfis"><img src="images/elefante.jpg" alt="foto de um elefante"></div>
+        </div>
 
     </div>
 
-    <div class="row">
-        <img src="images/bisao.jpg" alt="foto de um bisao">
-        <img src="images/leao.jpg" alt="foto de um leao">
-        <img src="images/eagle.jpg" alt="foto de uma aguia">
+    <!-- Parte em que ficam os botões com as ações, como também o horário e o código da reuinão -->
+    <div class="row" id="action-bar">
+        <div id="horario-codigo">08:30 | aaa-bbb-ccc</div>
+        <div>
+            <button class="btn"><i class="fas fa-microphone"></i></button>
+            <button class="btn btn-danger"> <i class="fas fa-video-slash"></i> </button>
+            <button class="btn"><i class="fas fa-hand-paper"></i></button>
+            <button class="btn">Apresentar tela</button>
+            <button class="btn">Mais opções</button>
+            <button class="btn btn-danger"><i class="fas fa-phone-slash"></i></button>
+        </div>
     </div>
-    
-    <div class="row">
-        <img src="images/lobo.jpg" alt="foto de um lobo">
-        <img src="images/urso.jpg" alt="foto de um urso">
-        <img src="images/pinguim.jpg" alt="foto de um pinguim">
-    </div>
-    
-    <div class="row">
-        <img src="images/tigre.jpg" alt="foto de um tigre">
-        <img src="images/cavalo.jpg" alt="foto de um cavalo">
-        <img src="images/elefante.jpg" alt="foto de um elefante">
-    </div>
-    
 </body>
 </html>
