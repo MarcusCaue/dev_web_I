@@ -25,40 +25,111 @@
         <span> <i class="fas fa-circle"></i> GRAVANDO </span>
     </div>
 
-    <!-- Parte em que ficam as caixinhas com as fotos e nomes de cada usuário -->
-    <div class="row col-md-8" id="users">
+    <!-- Fotos dos usuários e chat -->
+    <div class="row" id="meio">
 
-        <div class="row">
-            <div class="perfis"><img src="images/bisao.jpg" alt="foto de um bisao"></div>
-            <div class="perfis"><img src="images/leao.jpg" alt="foto de um leao"></div>
-            <div class="perfis"><img src="images/eagle.jpg" alt="foto de uma aguia"></div>
-        </div>
+        <!-- Parte em que ficam as caixinhas com as fotos e nomes de cada usuário -->
+        <section class="col-md-8">
+                <div class="row">
+                    <div class="perfis">
+                        <img src="images/bisao.jpg" alt="foto de um bisao">
+                        <div>Bisão das Terras Gélidas</div>
         
-        <div class="row">
-            <div class="perfis"><img src="images/lobo.jpg" alt="foto de um lobo"></div>
-            <div class="perfis"><img src="images/urso.jpg" alt="foto de um urso"></div>
-            <div class="perfis"><img src="images/pinguim.jpg" alt="foto de um pinguim"></div>
-        </div>
+                    </div>
         
-        <div class="row">
-            <div class="perfis"><img src="images/tigre.jpg" alt="foto de um tigre"></div>
-            <div class="perfis"><img src="images/cavalo.jpg" alt="foto de um cavalo"></div>
-            <div class="perfis"><img src="images/elefante.jpg" alt="foto de um elefante"></div>
-        </div>
+                    <div class="perfis">
+                        <img src="images/leao.jpg" alt="foto de um leao">
+                        <div>Leão da Savana</div>
+        
+                    </div>
+        
+                    <div class="perfis">
+                        <img src="images/eagle.jpg" alt="foto de uma aguia">
+                        <div>Águia das montanhas</div>
+        
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="perfis">
+                        <img src="images/lobo.jpg" alt="foto de um lobo">
+                        <div>Lobo das Neves</div>
+        
+                    </div>
+        
+                    <div class="perfis">
+                        <img src="images/urso.jpg" alt="foto de um urso">
+                        <div>Urso das florestas</div>
+        
+                    </div>
+        
+                    <div class="perfis">
+                        <img src="images/pinguim.jpg" alt="foto de um pinguim">
+                        <div>Pinguin dos Locais Frios</div>
+        
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="perfis">
+                        <img src="images/tigre.jpg" alt="foto de um tigre">
+                        <div>Tigre do Oriente</div>
+        
+                    </div>
+        
+                    <div class="perfis">
+                        <img src="images/cavalo.jpg" alt="foto de um cavalo">
+                        <div>Cavalo dos Campos</div>
+        
+                    </div>
+        
+                    <div class="perfis">
+                        <img src="images/elefante.jpg" alt="foto de um elefante">
+                        <div>Elefante da Savana</div>
+        
+                    </div>
+                </div>
+        </section>
 
+        <!-- Chat -->
+        <section class="col-md-4" id="chat">
+
+        </section>
     </div>
 
     <!-- Parte em que ficam os botões com as ações, como também o horário e o código da reuinão -->
     <div class="row" id="action-bar">
-        <div id="horario-codigo">08:30 | aaa-bbb-ccc</div>
-        <div>
-            <button class="btn"><i class="fas fa-microphone"></i></button>
-            <button class="btn btn-danger"> <i class="fas fa-video-slash"></i> </button>
-            <button class="btn"><i class="fas fa-hand-paper"></i></button>
-            <button class="btn">Apresentar tela</button>
-            <button class="btn">Mais opções</button>
-            <button class="btn btn-danger"><i class="fas fa-phone-slash"></i></button>
+        <div id="horario-codigo" class="col-md-4 actions">08:30 | aaa-bbb-ccc</div>
+
+        <div id="mid-actions" class="col-md-4 actions">
+            <!-- Abrir Microfone -->
+            <div class="btn"> <i class="fas fa-microphone"></i> </div>
+            <!-- Abrir Câmera -->
+            <div class="btn button-red"> <i class="fas fa-video-slash"></i> </div>
+            <!-- Levantar a mão -->
+            <div class="btn"> <i class="fas fa-hand-paper"></i> </div>
+            <!-- Compartilhar Tela -->
+            <div class="btn"> <i class="fas fa-images"></i> </div>
+            <!-- Mais opções -->
+            <div class="btn"> <i class="fas fa-ellipsis-v"></i> </div>
+            <!-- Sair da chamada -->
+            <div class="btn button-red"> <i class="fas fa-phone"></i> </div>
         </div>
+
+        <div id="right-actions" class="col-md-4 actions">
+            <!-- Informações da reunião -->
+            <div class="btn"> <i class="fas fa-info-circle"></i> </div>
+            <!-- Ver pessoas presentes na reunião -->
+            <div class="btn"> <i class="fas fa-user-friends"></i> </div>
+            <!-- Abrir o chat -->
+            <div class="btn"> <i class="fas fa-comment-alt"></i> </div>
+            <!-- Ferramentas do Administrador -->
+            <div class="btn"> <i class="fas fa-tools"></i> </div>
+            <!-- Reunião Segura -->
+            <div class="btn"> <i class="fas fa-shield-alt"></i> </div>
+
+        </div>
+
     </div>
 </body>
 </html>

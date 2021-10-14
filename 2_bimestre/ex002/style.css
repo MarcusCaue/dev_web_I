@@ -16,11 +16,16 @@ body {
     border-radius: 10px;
     padding: 10px 0px 10px 0px;
     font-size: 11px;
+    margin-bottom: 10px;
 }
 
 .perfis {
-    width: auto !important;
+    width: 30% !important;
     background-color: #3C4043;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center;
 }
 
 img {
@@ -29,7 +34,30 @@ img {
     height: 66px !important;
 }
 
-button {
+.btn {
     color: white !important;
+    background-color: #3C4043 !important;
+    
+    border-radius: 100% !important;
 }
 
+.button-red {
+    background-color: red !important;
+}
+
+#right-actions {
+    text-align: right;
+}
+
+#mid-actions {
+    text-align: center;
+}
+
+.actions {
+    font-size: 16px !important;
+}
+
+#chat {
+    background-color: white;
+    border-radius: 5px;
+}
