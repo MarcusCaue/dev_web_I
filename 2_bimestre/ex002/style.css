@@ -56,9 +56,37 @@ img {
 
 #chat {
     background-color: white;
+    color: black;
     border-radius: 5px;
 }
 
 #action-bar {
     margin-top: 30px;
+}
+
+#topo {
+    margin-top: 10px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.buttons-chat, .hour {
+    width: auto !important;
+
+}
+
+#adm-action {
+    font-size: 10px;
+    justify-content: space-between;
+    background-color: #e2ecfa;
+    border-radius: 2px;
+}
+
+.msg {
+    font-size: 10px;
+
+}
+
+.username {
+    font-weight: bold;
 }
