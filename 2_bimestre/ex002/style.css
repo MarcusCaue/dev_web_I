@@ -22,6 +22,7 @@ body {
 
 .perfis {
     width: 30% !important;
+    height: 112px !important;
     background-color: #3C4043;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -35,44 +36,15 @@ img {
     height: 66px !important;
 }
 
-.btn {
-    color: white !important;
-    background-color: #3C4043 !important;
-    
-    border-radius: 100% !important;
-}
-
-.button-red {
-    background-color: red !important;
-}
-
-#right-actions {
-    text-align: right;
-}
-
-#mid-actions {
-    text-align: center;
-}
-
 #chat {
     background-color: white;
     color: black;
     border-radius: 5px;
 }
 
-#action-bar {
-    margin-top: 30px;
-}
-
 #topo {
     margin-top: 10px;
-    font-size: 16px;
     justify-content: space-between;
-}
-
-.buttons-chat, .hour {
-    width: auto !important;
-
 }
 
 #adm-action {
@@ -93,4 +65,30 @@ img {
 
 .hour {
     color: #747070;
+}
+
+.buttons-chat, .hour {
+    width: auto !important;
+}
+
+#action-bar {
+    margin-top: 30px;
+}
+
+#mid-actions {
+    text-align: center;
+}
+
+#right-actions {
+    text-align: right;
+}
+
+.btn {
+    color: white !important;
+    background-color: #3C4043 !important;
+    border-radius: 100% !important;
+}
+
+.button-red {
+    background-color: red !important;
 }
