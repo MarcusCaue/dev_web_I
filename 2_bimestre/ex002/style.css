@@ -84,9 +84,13 @@ img {
 
 .msg {
     font-size: 10px;
-
+    padding: 5px;
 }
 
 .username {
     font-weight: bold;
+}
+
+.hour {
+    color: #747070;
 }
