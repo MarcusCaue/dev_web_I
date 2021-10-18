@@ -12,17 +12,17 @@ body {
 }
 
 #gravacao {
-    width: 100px;
+    width: 120px;
     background-color: #D04523;
     border-radius: 10px;
     padding: 10px 0px 10px 0px;
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 
 .perfis {
-    width: 30% !important;
-    height: 112px !important;
+    width: 32% !important;
+    height: 152px !important;
     background-color: #3C4043;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -32,8 +32,8 @@ body {
 
 img {
     border-radius: 100%;
-    width: 66px !important;
-    height: 66px !important;
+    width: 104px !important;
+    height: 100px !important;
 }
 
 #chat {
@@ -45,17 +45,18 @@ img {
 #topo {
     margin-top: 10px;
     justify-content: space-between;
+    font-size: 22px;
 }
 
 #adm-action {
-    font-size: 10px;
+    font-size: 12px;
     justify-content: space-between;
     background-color: #e2ecfa;
     border-radius: 2px;
 }
 
 .msg {
-    font-size: 10px;
+    font-size: 13px;
     padding: 5px;
 }
 
@@ -87,6 +88,9 @@ img {
     color: white !important;
     background-color: #3C4043 !important;
     border-radius: 100% !important;
+    text-align: center;
+    width: 50px;
+    height: 39px;
 }
 
 .button-red {
