@@ -66,10 +66,27 @@ img {
 
 .hour {
     color: #747070;
+    width: auto !important;
 }
 
-.buttons-chat, .hour {
+.buttons-chat {
+    background-color: transparent;
+    border-color: transparent;
     width: auto !important;
+}
+
+#envio-mensagem {
+    margin-top: 10%;
+    border-radius: 15px;
+    background-color: #e2ecfa;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#enviar-mensagem {
+    width: 89%;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 #action-bar {

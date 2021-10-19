@@ -85,10 +85,10 @@
         <!-- Chat -->
         <section class="col-md-4" id="chat">
             <!-- Título do Chat -->
-            <div class="row align-items-center" id="topo">Mensagens na chamada <i class="fas fa-times p-0 buttons-chat"></i> </div>
+            <div class="row align-items-center" id="topo">Mensagens na chamada <button class="buttons-chat"><i class="fas fa-times p-0"></i></button></div>
 
             <!-- Área de ação do administrador da reunião -->
-            <div class="row align-items-center p-2" id="adm-action"> Permitir que todos os participantes enviem mensagens <input type="checkbox" class="buttons-chat">
+            <div class="row align-items-center p-2" id="adm-action"> Permitir que todos os participantes enviem mensagens <input type="checkbox" style="width: auto !important;">
             </div>
 
             <hr>
@@ -115,6 +115,12 @@
                     <div class="username">Marcus Cauê <span class="hour">08:30</span></div>
                     <div>Espero que goste do site, professor! :)</div>
                 </div>
+            </div>
+
+            <!-- Campo para enviar mensagens o chat -->
+            <div id="envio-mensagem">
+                <input type="text" id="enviar-mensagem" placeholder="Enviar mensagem para todos "/>
+                <button class="buttons-chat"><i class="far fa-paper-plane"></i></button>
             </div>
             
         </section>
