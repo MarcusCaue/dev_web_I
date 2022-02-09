@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karthus - Restaurante e Churrascaria - Realização do Pedido</title>
+    <title>Realização do Pedido</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Karthus - Restaurante e Churrascaria</h1>
+        <h2 id="slogan">O lugar em que a sua barriga nunca fica vazia</h2>
+    </header>
+    <hr>
+    <main>
+        <h3>Realização do Pedido</h3>
+        <section id="formulario">
+            <form>
+                <!-- Lendo o peso do prato de almoço -->
+                <label>Digite o peso (em gramas) do prato de almoço</label>
+                <input type="number" name="pesoAlmoco" step="0.01" min="1" autofocus required>
+
+                <!-- Lendo o valor do desconto a ser aplicado sobre o preço do prato -->
+                <label>Insira o valor do desconto</label>
+                <input type="number" name="desconto" step="" min="1" max="100" required>
+
+                <button type="submit">Aplicar desconto</button>
+            </form>
+        </section>
+
+        <!-- Após o usuário clicar no botão, será gerada uma nova <section> contendo o preço final do produto bem destacado -->
+    </main>
+    <hr>
+    <!-- Links e nome da companhia -->
+    <footer>
+        <section id="links">
+            <h3 id="nomeCompanhia">Karthus Company&#174</h3>
+            <nav>
+                <a href="#">Facebook</a> |
+                <a href="#">Instagram</a> |
+                <a href="#">Página Principal</a> |
+                <a href="#">WhatsApp</a> |
+                <a href="#">YouTube</a>
+            </nav>
+        </section>
+    </footer>
 </body>
 </html>

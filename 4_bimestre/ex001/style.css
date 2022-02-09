@@ -1,0 +1,48 @@
+/* Reset */
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    height: 380px;
+}
+
+h2#slogan {
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+hr {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+footer, h3 {
+    text-align: center;
+}
+
+h3#nomeCompanhia {
+    margin-bottom: 45px;
+}
+
+section#formulario {
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 550px;
+    height: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
