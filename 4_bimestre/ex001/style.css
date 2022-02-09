@@ -4,9 +4,27 @@
     box-sizing: border-box;
 }
 
-header {
-    text-align: center;
+header, main, footer {
+    background-color: white;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+}
+
+body {
+    background-color: rgb(139, 0, 0);
+}
+
+header {
+    margin-top: 10px;
+}
+
+header, footer {
+    text-align: center;
+    color: #5f3000;
 }
 
 main {
@@ -28,14 +46,15 @@ hr {
 
 h3 {
     font-size: 18pt;
+    text-align: center;
 }
 
-footer, h3 {
+footer {
     text-align: center;
 }
 
 h3#nomeCompanhia {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 
 section#formulario {
@@ -45,6 +64,7 @@ section#formulario {
     width: 550px;
     height: 40%;
 
+    margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
@@ -66,5 +86,5 @@ button {
     width: 150px;
     height: 30px;
     margin-left: 34%;
-    margin-top: 20px;
+    margin-top: 35px;
 }
