@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(139, 0, 0);
+}
+
 header, main, footer {
     background-color: white;
-    width: 600px;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
@@ -14,25 +17,13 @@ header, main, footer {
     border: 1px solid rgba(0, 0, 0, 0.705);
 }
 
-body {
-    background-color: rgb(139, 0, 0);
-}
-
 header {
     margin-top: 10px;
-}
-
-header, footer {
-    text-align: center;
-    color: #5f3000;
-}
-
-main {
-    height: 380px;
+    font-size: 20pt;
 }
 
 h2#slogan {
-    font-size: 15pt;
+    font-size: 18pt;
     font-weight: normal;
 }
 
@@ -41,35 +32,31 @@ hr {
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 600px;
+    width: 85%;
+}
+
+header, footer, h3 {
+    text-align: center;
+    color: #5f3000;
+}
+
+main {
+    height: 360px;
 }
 
 h3 {
-    font-size: 18pt;
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-}
-
-h3#nomeCompanhia {
-    margin-bottom: 15px;
+    font-size: 25pt;
 }
 
 section#formulario {
-    border: 1px solid black;
-    border-radius: 7px;
-
-    width: 550px;
+    font-size: 17pt;
     height: 40%;
+    width: max-content;
 
-    margin-top: 10%;
-    margin-right: auto;
+    margin-top: 2.5%;
     margin-left: auto;
+    margin-right: auto;
     padding: 10px;
-
-    font-size: 13pt;
 }
 
 input {
@@ -78,13 +65,23 @@ input {
     border: 1px solid black;
     border-radius: 3px;
     padding-left: 2px;
+    font-size: 13pt;
 }
 
 button {
     border: 1px solid black;
-    border-radius: 2px;
-    width: 150px;
-    height: 30px;
+    border-radius: 3px;
+    width: 130px;
+    height: 40px;
     margin-left: 34%;
     margin-top: 35px;
+    font-size: 13pt;
+}
+
+h3#nomeCompanhia {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 0.5%;
 }
