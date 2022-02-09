@@ -48,7 +48,7 @@ h3 {
     font-size: 25pt;
 }
 
-section#formulario {
+section#formulario, section#resultado {
     font-size: 17pt;
     height: 40%;
     width: max-content;
@@ -68,14 +68,17 @@ input {
     font-size: 13pt;
 }
 
-button {
+input#calculo {
     border: 1px solid black;
     border-radius: 3px;
     width: 130px;
     height: 40px;
-    margin-left: 34%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 35px;
     font-size: 13pt;
+    cursor: pointer;
 }
 
 h3#nomeCompanhia {
@@ -84,4 +87,8 @@ h3#nomeCompanhia {
 
 footer {
     margin-top: 0.5%;
+}
+
+a {
+    color: black;
 }
