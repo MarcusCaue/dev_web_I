@@ -10,11 +10,8 @@ body {
 
 header, main, footer {
     background-color: white;
-    margin-right: auto;
-    margin-left: auto;
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.705);
 }
 
 header {
@@ -28,16 +25,17 @@ h2#slogan {
 }
 
 hr {
+    width: 85%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 85%;
 }
 
 header, footer, h3 {
     text-align: center;
     color: #5f3000;
+    font-weight: bold;
 }
 
 main {
@@ -48,9 +46,9 @@ h3 {
     font-size: 25pt;
 }
 
+/* "section#resultado" é originada quando o usuário clica no botão "Calcular" */
 section#formulario, section#resultado {
     font-size: 17pt;
-    height: 40%;
     width: max-content;
 
     margin-top: 2.5%;
@@ -62,31 +60,28 @@ section#formulario, section#resultado {
 input {
     width: 100px;
     height: 25px;
+    padding-left: 2px;
+
     border: 1px solid black;
     border-radius: 3px;
-    padding-left: 2px;
+
     font-size: 13pt;
 }
 
 input#calculo {
-    border: 1px solid black;
-    border-radius: 3px;
+    display: block;
     width: 130px;
     height: 40px;
-    display: block;
+    
+    cursor: pointer;
+
     margin-right: auto;
     margin-left: auto;
     margin-top: 35px;
-    font-size: 13pt;
-    cursor: pointer;
 }
 
 h3#nomeCompanhia {
     margin-bottom: 15px;
-}
-
-footer {
-    margin-top: 0.5%;
 }
 
 a {

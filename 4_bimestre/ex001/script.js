@@ -6,7 +6,7 @@ Digo isso porque toda vez que o usuário clica no botão "Calcular", aparece mai
 */
 
 function calcular() {
-    var peso = document.querySelector("#pesoAlmoco")
+    var peso = document.getElementById("pesoAlmoco")
     peso = parseFloat(peso.value)
     var desconto = document.getElementById("desconto")
     desconto = parseInt(desconto.value)
