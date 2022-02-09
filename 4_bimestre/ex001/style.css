@@ -41,8 +41,30 @@ h3#nomeCompanhia {
 section#formulario {
     border: 1px solid black;
     border-radius: 7px;
+
     width: 550px;
     height: 40%;
+
     margin-right: auto;
     margin-left: auto;
+    padding: 10px;
+
+    font-size: 13pt;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 2px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 150px;
+    height: 30px;
+    margin-left: 34%;
+    margin-top: 20px;
 }
