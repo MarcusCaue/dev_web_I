@@ -1,5 +1,6 @@
 /* Peço desculpas pelo desgin genérico, mas é o que eu consigo produzir até então */
 
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ section#cadastro, header, footer {
     color: #025E73;
 }
 
-header {
+header, footer {
     text-align: center;
     padding: 10px;
 }
@@ -72,9 +73,7 @@ button {
 }
 
 footer {
-    text-align: center;
     font-size: 10px;
-    padding: 10px;
 }
 
 section#links {
