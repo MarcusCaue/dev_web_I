@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.telaInteira {
+    height: 100vh;
+    font-size: 200px;
+}
