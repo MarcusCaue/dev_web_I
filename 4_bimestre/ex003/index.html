@@ -7,8 +7,41 @@
     <title>João Montanhês Imobiliária</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
 </head>
 <body>
+    <header onmouseenter="entrou()" onmouseleave="saiu()">
+        <h1 id="namePage">João Montanhês Imobiliária</h1>
+        <h2 id="mensagemOferta" class="animate__animated"></h2>
+    </header>
+
+    <main>
+        <h2>Veja os nossos imóveis mais vendidos!</h2>
+        <section id="imagens">
+            <div class="imagem animate__animated animate__fadeInLeft animate__delay-1s">
+                <img src="images/mansao220.jpg" alt="Mansão" onclick='acessar("https://www.leagueoflegends.com/pt-br/")'>
+                <p>Mansão de Luxo na praia</p>
+            </div>
+            <div class="imagem animate__animated animate__fadeInUp animate__delay-2s">
+                <img src="images/predio220.jpg" alt="Prédio" onclick='acessar("https://www.google.com.br/")'>
+                <p>Prédio moderno de cidade grande</p>
+            </div>
+            <div class="imagem animate__animated animate__fadeInRight animate__delay-3s">
+                <img src="images/casa220.jpg" alt="Casa Simples" onclick='acessar("https://www.crunchyroll.com/pt-br")'>
+                <p>Casa simples</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Você deseja receber ofertas da nossa imobiliária?</h2>
+        <form action="">
+            <input type="tel" id="tel" placeholder="Digite o seu telefone">
+            <button onclick="return validaForm()" type="submit">ENVIAR</button>
+        </form>
+    </footer>
 
 </body>
 </html>

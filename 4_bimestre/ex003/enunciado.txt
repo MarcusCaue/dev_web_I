@@ -1,0 +1,11 @@
+O nome da sua imobiliária no topo da página. 
+    Ao passar com o mouse por cima deste nome mostrar uma mensagem “Aqui você encontra as melhores ofertas!”.
+    Coloque uma animação de sua preferência.
+    
+- Um local de sua preferência no site com 3 imagens (Apartamento, Casa e Terreno). 
+    Ao clicar em cada imagem, o cliente deve ser direcionado para outros sites (pode usar páginas fictícias, como Google, Uol, etc.)
+
+- Um local de sua preferência com a frase “Você quer receber ofertas da nossa imobiliária?”. 
+    Em seguida, um espaço para o cliente informar o seu telefone e um botão ENVIAR. 
+    Ao clicar no botão um email deve ser enviado para emanuel.filho@ifpb.edu.br com o telefone do cliente. 
+    Valide o formulário para que não seja possível enviar algo em branco.
